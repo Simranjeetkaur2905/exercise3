@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="VOTE PLEASE"-->
+<!--        android:textSize="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_margin="20dp"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOTE PLEASE"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/name"
+            android:layout_marginLeft="30dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textSize="25dp"
+            android:layout_marginLeft="30dp"
+            />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/id"
+        android:layout_marginLeft="30dp"/>
+
+        ></TableRow>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+
+        android:entries="@array/Choose_Candidate"
+        android:id="@+id/choosecandidate">
+
+    </Spinner>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="ACCEPT"
+            android:id="@+id/accept"
+            android:textOn="REFUSE
+"
+
+            android:textSize="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/vote"
+            android:text="VOTE"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+
+
+
+    </TableRow>
+
+
+
+
+
+
+
+</TableLayout>

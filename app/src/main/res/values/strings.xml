@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">exercise3</string>
+    <string-array name="Choose_Candidate">
+        <item>choose candidate</item>
+        <item>candidate 1</item>
+        <item>candidate 2</item>
+        <item>candidate 3</item>
+
+
+    </string-array>
+</resources>
